@@ -27,17 +27,14 @@ a.nav-link:hover{
     font-weight: 600;
 }
 
-@media (max-width: 768px){
-    .copyright-para{
-        align-items: center;
-        padding-left: 55px;
-        
-    }
-    .design-para{
-        align-items: center;
+@media(max-width:991px) {
+
+        .copy,
+        .design {
+            text-align: center;
+        }
     }
 
     .footer-details{
         text-align: center;
     }
-}
